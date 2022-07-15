@@ -3,18 +3,13 @@
  * @param {Date} d 
  */
 function countDays(d){
-    today = new Date()
-    console.log(today.getDate())
-    console.log()
-
-//     if (d.getDate() < today.getDate()) {
-//         console.log("The day is in the past!")
-//         return "The day is in the past!"
-//     }
-
+    let today = new Date()
+    return today - d
   }
 
-let example = new Date().getDate()+1
-console.log("example",example)
+let example = new Date()
 
-countDays(example)
+console.log(example)
+console.log(countDays(example))
+
+/** not finsished yet!!!!! */
