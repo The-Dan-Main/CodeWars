@@ -1,11 +1,11 @@
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
     let miles = distanceToPump / mpg
     if (miles <= fuelLeft) {
-        console.log("es reicht noch")
+        // console.log("es reicht noch")
         return true
 
     } else {
-        console.log("es reicht nicht mehr")
+        // console.log("es reicht nicht mehr")
         return false
     };
 };

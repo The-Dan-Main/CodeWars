@@ -1,3 +1,5 @@
+/** this is a copyrighted exam */
+
 function textAnalyzer(text) {
     if (typeof text !== 'string') {
       return "Cannot analyze text. Provided input is not valid. Please pass a string";
